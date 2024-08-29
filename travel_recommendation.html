@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body> 
+    <header class="navbar">
+        <div class="logo">
+            <img src="travel.png" alt="TravelBloom">
+        </div>
+        <nav class="nav-links">
+            <a href="travel_recommendation.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="input-btn" placeholder="Enter a destination or keyword">
+            <button class="search-btn">Search</button>
+            <button class="clear-btn">Clear</button>
+
+           
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EXPLORE <br>DREAM <br>DESTINATION</h1>
+            <p>Encourage exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the ideal destination that captivates the heart and ignites a sense of adventure.</p>
+            <button class="book-now-btn">BOOK NOW</button>
+        </div>
+
+
+        <!-- Results Section in index.html -->
+        <section id="search-results">
+            <h2>Results</h2>
+            <div id="results-container"></div>
+        </section>
+
+
+        <section id="recommendations" class="recommendations-section">
+            <h2>Travel Recommendation </h2>
+            <div id="recommendations-container" class="recommendations-container"></div>
+        </section>
+
+
+        <div class="social-icons">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>

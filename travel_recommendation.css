@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #202020;
+    color: #fff;
+}
+
+.logo img {
+    width: 120px; /* Adjust based on your logo size */
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.search-bar .clear-btn {
+    background-color: #ddd;
+    color: #333;
+}
+
+.search-bar button:hover {
+    opacity: 0.8;
+}
+
+.hero {
+    background-image: url('city.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.book-now-btn {
+    padding: 12px 25px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.book-now-btn:hover {
+    background-color: #005f7a;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 24px; /* Adjust icon size */
+}
+
+
+
+
+
+
+.about-section {
+    background-image: url('city.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.team-section {
+    margin-top: 50px;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    color: #fff;
+    text-align: center;
+}
+
+.team-member h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-section {
+    background-image: url('city.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px; /* Adjust according to header height */
+    box-sizing: border-box;
+}
+
+.contact-content {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-content h1 {
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.contact-content p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #fff; /* Add a border for visibility */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent; /* Makes the background transparent */
+    color: #fff; /* Text color */
+    outline: none;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder text color */
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0f62c9;
+}
+
+
+
+
+
+
+
+
+
+/* Recommendations Section */
+.recommendations-section {
+    padding: 50px 20px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.recommendations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recommendation-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-10px);
+}
+
+.recommendation-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recommendation-card h3 {
+    margin: 15px 0 10px;
+}
+
+.recommendation-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/* Search Results Section */
+#search-results {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#results-container p {
+    font-size: 18px;
+    color: #333;
+}
